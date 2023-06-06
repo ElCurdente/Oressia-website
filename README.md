@@ -1,5 +1,3 @@
-# Oressia-website
-
 # Installation
 npm i
 
