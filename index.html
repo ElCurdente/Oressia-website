@@ -5,15 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Oressia</title>
   </head>
   <body>
     <div id="app">
       <header>
-        <img class="logo" src="./src/img/logo.png" alt="">
+        <img class="logo oressia" src="./src/img/logo.png" alt="">
         <div class="intro-gradient"></div>
       </header>
       <main>
+        <div class="video-gradient">
         <div class="intro">
           <h1>Oressia est un jeu collaboratif en 3D</h1>
           <p class="p-full">On y incarne Haku ou Auri, deux villageois déterminés à retrouver les morceaux dispersés du totem sacré de leur village afin d’y restaurer la stabilité et l’harmonie. Pour ce faire, il nous faut explorer les différentes îles de l’archipel et en résoudre les énigmes pour continuer d’avancer et récupérer les morceaux du totem !</p>
@@ -31,6 +32,7 @@
           <img class="branche-left" src="./src/img/branche.png" alt="">
           <img class="branche-right" src="./src/img/branche.png" alt="">
         </div>
+        </div>
         <div class="main-gradient">
         <div class="swiper-container">
           <h1>L'histoire en image</h1>
@@ -47,28 +49,38 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
           </div>
-          <div class="swiper-content">
-            <h2>Redonne vie au Totem !</h2>
-            <p class="p-semi">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <div class="swiper-text">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-slide">
+                <h2>Redonne vie au Totem !</h2>
+                <p class="p-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </div>
+              <div class="swiper-slide text-slide">
+                <h2>Redonne vie au Totem !</h2>
+                <p class="p-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </div>
+              <div class="swiper-slide text-slide">
+                <h2>Redonne vie au Totem !</h2>
+                <p class="p-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="character-container">
           <h1>Présentation des personnages</h1>
           <div class="character-wrapper">
-<!--            <img class="haku-branche" src="./src/img/branche.png" alt="">-->
             <img class="character" src="./src/img/haku.png" alt="">
             <div class="character-content">
               <img class="border" src="./src/img/border-video.png" alt="">
-                <h1>Haku</h1>
-                <p class="p-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h1 class="dark">Haku</h1>
+                <p class="p-full dark">Haku est caractérisé d’une forte personnalité. Courageux et déterminé, il mettra tout en oeuvre pour retrouver les fragments du totem brisé.</p>
             </div>
           </div>
           <div class="character-wrapper">
-            <!--            <img class="haku-branche" src="./src/img/branche.png" alt="">-->
             <div class="character-content">
               <img class="border" src="./src/img/border-video.png" alt="">
-              <h1>Auri</h1>
-              <p class="p-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h1 class="dark">Auri</h1>
+              <p class="p-full dark">Auri est un personnage empathique. Il se soucis toujours de ses amis et sera donc un bon coéquipier durant cette palpitante aventure.</p>
             </div>
             <img class="character" src="./src/img/auri.png" alt="">
           </div>
@@ -81,10 +93,10 @@
             <img class="discover-bg" src="./src/img/button.png" alt="">
             <h1 class="discover-text">Découvrir notre jeu</h1>
         </a>
-        <img class="logo" src="./src/img/gobelins.png" alt="">
+        <img class="logo gobelins" src="./src/img/gobelins.png" alt="">
         <div class="footer-content">
-          <p>Agathe Bosch - Wendy Paulos - Chanel Bitton</p>
-          <p>Jules Mesnil - Estelle Lay - Neo Miannay</p>
+          <div class="tooltip">Agathe Bosch<span class="tooltiptext">Designeuse</span></div> - <div class="tooltip">Wendy Paulos<span class="tooltiptext">Designeuse</span></div> - <div class="tooltip">Chanel Bitton<span class="tooltiptext">Designeuse</span></div> -
+          <div class="tooltip">Jules Mesnil<span class="tooltiptext">Développeur</span></div> - <div class="tooltip">Estelle Lay<span class="tooltiptext">Développeur</span></div> - <div class="tooltip">Néo Miannay<span class="tooltiptext">Développeur</span></div>
         </div>
       </footer>
     </div>
